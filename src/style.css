@@ -266,7 +266,7 @@ button { font: inherit; }
 @keyframes fireworkBurst { 0%, 10% { opacity: 0; transform: scale(.12) rotate(0); } 35% { opacity: 1; } 75%, 100% { opacity: 0; transform: scale(1.1) rotate(35deg); } }
 .pop-flash { position: fixed; inset: 0; pointer-events: none; background: radial-gradient(circle at 50% 22%, rgba(255,197,105,.26), transparent 28%); animation: popFlash .65s ease-out forwards; }
 @keyframes popFlash { from { opacity: 1; } to { opacity: 0; } }
-.tip-photo { position: absolute; z-index: 3; top: 5%; left: 50%; width: 64px; height: 112px; border-radius: 7px; transform: translateX(-50%); pointer-events: none; animation: tipPhotoPop .9s cubic-bezier(.17,.89,.32,1.3) both; }
+.tip-photo { position: absolute; z-index: 3; top: 17%; left: 50%; width: 86px; height: 154px; border-radius: 7px; transform: translateX(-50%); pointer-events: none; animation: tipPhotoPop .9s cubic-bezier(.17,.89,.32,1.3) both; }
 @keyframes tipPhotoPop { 0% { opacity: 0; transform: translate(-50%, 34px) scale(.12); } 65% { opacity: 1; transform: translate(-50%, -15px) scale(1.12); } 100% { opacity: 1; transform: translate(-50%, -5px) scale(1); } }
 
 .experience-screen { min-height: 100vh; display: flex; align-items: center; justify-content: center; position: relative; padding: 82px 22px 60px; }
@@ -319,7 +319,7 @@ button { font: inherit; }
   .choice-icon { position: absolute; top: 16px; right: 39px; }
   .choice-label { max-width: calc(100% - 55px); font-size: 15px; }
   .choice-desc { max-width: calc(100% - 35px); }
-  .tip-photo { top: 4%; width: 58px; height: 103px; }
+  .tip-photo { top: 16%; width: 76px; height: 136px; }
   .back-button { top: 23px; left: 16px; }
   .experience-screen { padding: 88px 18px 55px; }
   .experience-content h1 { font-size: 37px; }
